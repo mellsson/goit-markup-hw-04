@@ -94,11 +94,6 @@ color:var(--accent-color);
 
 }
 .main-cont {
-width: 1200px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 display: flex;
 align-items: center;
 
@@ -420,24 +415,10 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-/* padding-top: 94px;
-padding-bottom: 94px; */
-}
-.container-feature {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 
-.container-box {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .box-list .items {
 width: calc((100% - 60px)/3); 
 }
