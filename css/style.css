@@ -140,7 +140,11 @@ position: absolute;
 bottom: -1px;
 }
 
-.menu-link:active::after {
+.menu .active {
+    color:var(--accent-color);
+}
+
+.menu .active::after {
     display:inherit;
     content: '';
     width: 100%;
@@ -149,17 +153,16 @@ bottom: -1px;
     border-radius: 2px;
     position: absolute;
     bottom: -1px;
-    }
-
+}
 
 
 .menu-link:hover, .menu-link:focus {
 color: var(--accent-color);
 
 }
-.menu-link:active {
+/* .menu-link:active {
     color: var(--accent-color);  
-}
+} */
 
 .contact {
 display: flex;
@@ -648,4 +651,3 @@ border-radius: 50%;
     --color4:#2196F3;
     border-color: #2196F3;
 }
-
